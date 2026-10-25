@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div>
+        <h1>Java Quiz Application</h1>
+        <p>Test your knowledge and get your score</p>
+      </div>
+      <span id="progress" class="progress">Question 1 of 3</span>
+    </header>
+
+    <section id="quiz-card" class="card" aria-live="polite">
+      <div class="question-top">
+        <span id="question-number">Question 1</span>
+        <span class="tag">Multiple choice</span>
+      </div>
+      <h2 id="question">Loading question...</h2>
+      <div id="options" class="options"></div>
+      <p id="feedback" class="feedback" role="status"></p>
+      <div class="actions">
+        <span id="score">Score: 0</span>
+        <button id="next-button" class="button" disabled>Check answer</button>
+      </div>
+    </section>
+
+    <footer>Made for learning Java • Choose an answer, then check it.</footer>
+  </main>
+</body>
+</html>
