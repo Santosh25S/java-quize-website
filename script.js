@@ -17,6 +17,68 @@ const questions = [
     answer: 1,
     explanation: "The new keyword creates an object by invoking a constructor."
   }
+  
+{
+    question: "Which keyword is used to inherit a class in Java?",
+    options: ["implements", "extends", "inherits", "super"],
+    answer: 1,
+    explanation: "The extends keyword is used for class inheritance."
+},
+{
+    question: "Which data type stores true or false values?",
+    options: ["int", "char", "boolean", "float"],
+    answer: 2,
+    explanation: "The boolean data type stores true or false."
+},
+{
+    question: "Which symbol ends a Java statement?",
+    options: [".", ":", ";", ","],
+    answer: 2,
+    explanation: "A semicolon ends most Java statements."
+},
+{
+    question: "Which keyword creates a subclass relationship?",
+    options: ["static", "extends", "final", "void"],
+    answer: 1,
+    explanation: "A subclass uses extends to inherit from a class."
+},
+{
+    question: "Which method compares the contents of two Strings?",
+    options: ["compare()", "==", "equals()", "match()"],
+    answer: 2,
+    explanation: "equals() compares String contents."
+},
+{
+    question: "Which loop executes its body at least once?",
+    options: ["for", "while", "do-while", "enhanced for"],
+    answer: 2,
+    explanation: "A do-while loop checks its condition after the body executes."
+},
+{
+    question: "Which keyword prevents a class from being inherited?",
+    options: ["static", "private", "final", "protected"],
+    answer: 2,
+    explanation: "A final class cannot be extended."
+},
+{
+    question: "Which package contains the Scanner class?",
+    options: ["java.io", "java.util", "java.lang", "java.net"],
+    answer: 1,
+    explanation: "Scanner is available in the java.util package."
+},
+{
+    question: "What is the default value of an int instance variable?",
+    options: ["1", "null", "0", "undefined"],
+    answer: 2,
+    explanation: "An int instance variable defaults to 0."
+},
+{
+    question: "Which concept allows one method name to have different parameter lists?",
+    options: ["Inheritance", "Method overloading", "Encapsulation", "Abstraction"],
+    answer: 1,
+    explanation: "Method overloading uses the same method name with different parameter lists."
+}
+
 ];
 
 let currentQuestion = 0;
