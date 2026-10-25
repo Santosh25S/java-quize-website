@@ -16,7 +16,7 @@ const questions = [
     options: ["class", "new", "void", "static"],
     answer: 1,
     explanation: "The new keyword creates an object by invoking a constructor."
-  }
+  },
   
 {
     question: "Which keyword is used to inherit a class in Java?",
